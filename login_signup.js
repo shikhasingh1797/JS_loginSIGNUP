@@ -25,7 +25,7 @@ if (user=="1"){
                 var fs=require("fs")
                 var k=fs.readFileSync("myFile.json","utf-8")
                 console.log(k)
-                if (k==""){
+                if (k.length==0){
                     var detail_list=[]
                     var full_detail={}
                     var user_name_password={}
@@ -59,9 +59,11 @@ if (user=="1"){
                 }
                 else{
                     var j=fs.readFileSync("myFile.json","utf-8")
-                    for (i in k["user"]){
-                        if(i["name"]==user1 && i["password"]==pass){
+                    console.log(j)
+                    for (i in j["user"]){
+                        if(j["user"][i]["name"]==user1 && j["user"][i]["password"]==pass){
                             console.log("user already exist")
+                            break
                         }
                         else{
                             var user_name_password={}
@@ -78,8 +80,8 @@ if (user=="1"){
                                 "gender":gender
 
                             }
-                            k["user"].push(user_name_password)
-                            console.log(k)
+                            j["user"].push(user_name_password)
+                            console.log(j)
                         }
                     }
 
