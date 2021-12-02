@@ -1,13 +1,53 @@
 {
     "user": [
         {
-            "name": "sssssss",
-            "password": "as@1",
+            "name": "shikha",
+            "password": "as@3",
             "profile": {
-                "dis": "d",
-                "dob": "fghjk",
+                "dis": "dfghjk",
+                "dob": "dfjkl",
+                "hobby": "dfghjk",
+                "gender": "dfghjk"
+            }
+        },
+        {
+            "name": "anmol",
+            "password": "as@4",
+            "profile": {
+                "dis": "dfghj",
+                "dob": "dfhjk",
                 "hobby": "fghjk",
-                "gender": "fgjk"
+                "gender": "fghjk"
+            }
+        },
+        {
+            "name": "beauty",
+            "password": "as@5",
+            "profile": {
+                "dis": "djk",
+                "dob": "dfghjk",
+                "hobby": "fghjk",
+                "gender": "fghjk"
+            }
+        },
+        {
+            "name": "jaan",
+            "password": "aq@1",
+            "profile": {
+                "dis": "ghj",
+                "dob": "hjk",
+                "hobby": "hjk",
+                "gender": "jkl"
+            }
+        },
+        {
+            "name": "grecy",
+            "password": "as@123",
+            "profile": {
+                "dis": "12",
+                "dob": "studing",
+                "hobby": "driving",
+                "gender": "female"
             }
         }
     ]
